@@ -46,17 +46,30 @@ h1 {
   transition: all 200ms ease;
 }
 
-/* BEM - Block Element Modifiers */
-.box--colour {
+/********** BEM - Block Element Modifiers **********/
+.box--green {
   background-color: #18e222;
 }
 
-.box--shape {
+.box--yellow {
   background-color: #e7ea05;
 }
 
-.box--hide {
+.box--red {
   background-color: #ce1d06;
+}
+
+/********** JavaScript Toggles **********/
+.change-colour { 
+    background-color: #05770b;
+}
+
+.change-shape { 
+    border-radius: 50%; 
+}
+
+.hide-box { 
+    opacity: 0; 
 }
 
 /********** Buttons **********/
