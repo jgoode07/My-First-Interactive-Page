@@ -11,8 +11,8 @@ Each button applies a different visual effect to its corresponding box using Jav
 
 ---
 
-- **Button 1 affects Box 1:** change colour
-- **Button 2 affects Box 2:** change from square into a circle (border-radius)
+- **Button 1 affects Box 1:** changes colour
+- **Button 2 affects Box 2:** changes from square into a circle (border-radius)
 - **Button 3 affects Box 3:** hide (opacity 0)
 
 #### Files
