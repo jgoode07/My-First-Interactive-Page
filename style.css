@@ -42,6 +42,8 @@ h1 {
 .box {
   width: 7rem;
   height: 7rem;
+  /* A light border to avoid colours clashing with background */
+  border: 1px solid #999;
   background: #eee;
   transition: all 200ms ease;
 }
