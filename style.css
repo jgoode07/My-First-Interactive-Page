@@ -7,15 +7,42 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #fff;
+  /* Dark mode background */
   background-color: #001320;
 }
 
 main {
   max-width: 800px;
-  margin: 40px auto;
-  padding: 0 16px;
+  margin: 2.5rem auto;
+  padding: 0 1rem;
 }
 
 h1 {
-  margin: 0 0 24px 0;
+  margin: 6rem 0 4rem 0;
+}
+
+/********** Layout **********/
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  /* Stack card content */  
+  flex-direction: column;
+  align-items: center;
+  background-color: #eee;
+  padding: 4rem;
+  gap: 3rem;
+}
+
+/********** Box **********/
+.box {
+  width: 7rem;
+  height: 7rem;
+  background: #cccccc;
+  border: 2px solid #888888;
+  transition: all 200ms ease;
 }
