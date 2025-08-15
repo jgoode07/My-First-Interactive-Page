@@ -46,3 +46,17 @@ h1 {
   border: 2px solid #888888;
   transition: all 200ms ease;
 }
+
+/********** Buttons **********/
+button {
+  padding: .75rem 1rem;
+  border-radius: 50px;
+  color: #fff;
+  border-color: #3455fa;
+  background: #3455fa;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #343bfe;
+}
